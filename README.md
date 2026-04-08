@@ -33,6 +33,19 @@ The v5.2 release incorporates the latest repairs and source optimizations:
 
 ## Quick Start
 
+### 0. Clone With Git LFS
+
+The dataset CSVs in `data/` are stored via Git LFS. A plain `git clone` will fetch ~132-byte pointer stubs instead of the real files, and the benchmark will not run. Install Git LFS once, then clone (or pull) so the CSVs are materialized:
+
+```bash
+git lfs install
+git clone https://github.com/R-Lit/PhishNChips.git
+# or, if you already cloned without LFS:
+cd PhishNChips && git lfs pull
+```
+
+You can verify the dataset is materialized by checking that `data/core_emails.csv` is roughly 1.5 MB (not 132 bytes).
+
 ### 1. Install Dependencies
 ```bash
 python -m venv .venv
