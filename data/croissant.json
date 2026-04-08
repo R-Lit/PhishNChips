@@ -1,0 +1,762 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "cr": "http://mlcommons.org/croissant/",
+    "dct": "http://purl.org/dc/terms/",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "description": "https://schema.org/description",
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    },
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileObject": "cr:fileObject",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isLiveDataset": "cr:isLiveDataset",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "sc": "https://schema.org/",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "fileProperty": "cr:fileProperty",
+    "fileSet": "cr:fileSet",
+    "jsonPath": "cr:jsonPath",
+    "samplingRate": "cr:samplingRate"
+  },
+  "@type": "sc:Dataset",
+  "name": "PhishNChips",
+  "description": "The PhishNChips benchmark: 2,000-email core dataset for evaluating how LLM email-agent security behavior changes under different system prompt configurations. Includes 220,000 adjudicated benchmark evaluations across 11 models and 10 prompt strategies, plus auxiliary validation and infrastructure stress-test files. All third-party sources cleared for academic redistribution with attribution.",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "license": "https://huggingface.co/datasets/AreLit/PhishNChips/blob/main/SOURCE_LICENSES.md",
+  "url": "https://huggingface.co/datasets/AreLit/PhishNChips",
+  "version": "1.2.0",
+  "creator": {
+    "@type": "Person",
+    "name": "Ron Litvak"
+  },
+  "keywords": [
+    "phishing detection",
+    "llm security",
+    "benchmark",
+    "email security",
+    "prompt sensitivity"
+  ],
+  "citeAs": "@article{litvak2026phishnchips, title={The System Prompt Is the Attack Surface: How {LLM} Agent Configuration Shapes Security and Creates Exploitable Vulnerabilities}, author={Litvak, Ron}, journal={arXiv preprint}, year={2026}}",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "core-emails-file",
+      "name": "core_emails.csv",
+      "contentUrl": "https://huggingface.co/datasets/AreLit/PhishNChips/resolve/main/core_emails.csv",
+      "encodingFormat": "text/csv",
+      "sha256": "cebb407ff8630491a97400e37464b8db8dfc4299164fca51fcb4ac7eec8204ef"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "benchmark-results-file",
+      "name": "benchmark_results.csv",
+      "contentUrl": "https://huggingface.co/datasets/AreLit/PhishNChips/resolve/main/benchmark_results.csv",
+      "encodingFormat": "text/csv",
+      "sha256": "1d7e8b5aa39df27e0f66297b5cbd4d3da3d640eb436219658f80e531ebf291ae"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "reference-results-file",
+      "name": "reference_results.csv",
+      "contentUrl": "https://huggingface.co/datasets/AreLit/PhishNChips/resolve/main/reference_results.csv",
+      "encodingFormat": "text/csv",
+      "sha256": "5e15d7498aeadd73a23aec0b01979cacf02d172b97c88b3db0078609cc92ef15"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "prompt-strategies-file",
+      "name": "prompt_strategies.json",
+      "contentUrl": "https://huggingface.co/datasets/AreLit/PhishNChips/resolve/main/prompt_strategies.json",
+      "encodingFormat": "application/json",
+      "sha256": "0a293bb8e722d0621845f3e0f9b5cd8bd100818c35222c1cd6964a8fa3b367b0"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "cross-domain-file",
+      "name": "cross_domain_legitimate_v5.csv",
+      "contentUrl": "https://huggingface.co/datasets/AreLit/PhishNChips/resolve/main/cross_domain_legitimate_v5.csv",
+      "encodingFormat": "text/csv",
+      "sha256": "66df80e116bbb431b5374b381eba490df858be785a00d5e1fdf91e22bd34393c"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "infra-candidates-file",
+      "name": "infrastructure_phishing_expanded.csv",
+      "contentUrl": "https://huggingface.co/datasets/AreLit/PhishNChips/resolve/main/infrastructure_phishing_expanded.csv",
+      "encodingFormat": "text/csv",
+      "sha256": "839c02c0daf5e78724416b42ba95d3962cb483a01b7df13af3de1e5590a1ce71"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "real-validation-file",
+      "name": "real_phishing_validation.csv",
+      "contentUrl": "https://huggingface.co/datasets/AreLit/PhishNChips/resolve/main/real_phishing_validation.csv",
+      "encodingFormat": "text/csv",
+      "sha256": "60131198553e6346496af955937dddeb7c7592e31dd56c0579542017d48ce196"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "source-licenses-file",
+      "name": "SOURCE_LICENSES.md",
+      "contentUrl": "https://huggingface.co/datasets/AreLit/PhishNChips/resolve/main/SOURCE_LICENSES.md",
+      "encodingFormat": "text/markdown",
+      "sha256": "04a9668f326aa0d8ed197de1531b5d4045daba6b4bef62666d08941da34e41a6"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "@id": "core_emails",
+      "name": "core_emails",
+      "description": "The core 2,000-email benchmark.",
+      "key": {
+        "@id": "core_emails/id"
+      },
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "core_emails/id",
+          "description": "Unique sample identifier.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "core-emails-file"
+            },
+            "extract": {
+              "column": "id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "core_emails/url_raw",
+          "description": "Embedded URL shown to the model.",
+          "dataType": "sc:URL",
+          "source": {
+            "fileObject": {
+              "@id": "core-emails-file"
+            },
+            "extract": {
+              "column": "url_raw"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "core_emails/phish_label",
+          "description": "Ground-truth label: 1 for phishing, 0 for legitimate.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "core-emails-file"
+            },
+            "extract": {
+              "column": "phish_label"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "core_emails/email_content",
+          "description": "JSON string containing sender, from, subject, body, link_display_text, and link_url.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "core-emails-file"
+            },
+            "extract": {
+              "column": "email_content"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "core_emails/strategy",
+          "description": "Dataset-generation scenario tag.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "core-emails-file"
+            },
+            "extract": {
+              "column": "strategy"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "core_emails/url_category",
+          "description": "URL/source category used during construction.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "core-emails-file"
+            },
+            "extract": {
+              "column": "url_category"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "core_emails/datasource",
+          "description": "Seed URL or legitimate-domain source.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "core-emails-file"
+            },
+            "extract": {
+              "column": "datasource"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "core_emails/model_used",
+          "description": "Generator label for stimulus creation.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "core-emails-file"
+            },
+            "extract": {
+              "column": "model_used"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "benchmark_results",
+      "name": "benchmark_results",
+      "description": "Canonical adjudicated benchmark judgments for the 2,000-email core set.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "benchmark_results/sample_id",
+          "description": "Email identifier matching core_emails/id.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "benchmark-results-file"
+            },
+            "extract": {
+              "column": "sample_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "benchmark_results/model",
+          "description": "Evaluated model identifier.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "benchmark-results-file"
+            },
+            "extract": {
+              "column": "model"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "benchmark_results/strategy",
+          "description": "Prompt strategy used for the evaluation.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "benchmark-results-file"
+            },
+            "extract": {
+              "column": "strategy"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "benchmark_results/true_label",
+          "description": "Ground-truth label copied from the stimulus.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "benchmark-results-file"
+            },
+            "extract": {
+              "column": "true_label"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "benchmark_results/prediction",
+          "description": "Model decision: 1 proceed, 0 block.",
+          "dataType": "sc:Float",
+          "source": {
+            "fileObject": {
+              "@id": "benchmark-results-file"
+            },
+            "extract": {
+              "column": "prediction"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "benchmark_results/correct",
+          "description": "Correctness flag for the parsed decision.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "benchmark-results-file"
+            },
+            "extract": {
+              "column": "correct"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "benchmark_results/raw_response",
+          "description": "Raw model output before parsing.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "benchmark-results-file"
+            },
+            "extract": {
+              "column": "raw_response"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "benchmark_results/error",
+          "description": "Error string if a call or parse failed.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "benchmark-results-file"
+            },
+            "extract": {
+              "column": "error"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "reference_results",
+      "name": "reference_results",
+      "description": "Compact per-model and per-strategy summary metrics for the canonical benchmark.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "reference_results/model",
+          "description": "Evaluated model identifier.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "reference-results-file"
+            },
+            "extract": {
+              "column": "model"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "reference_results/strategy",
+          "description": "Benchmark prompt strategy.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "reference-results-file"
+            },
+            "extract": {
+              "column": "strategy"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "reference_results/recall",
+          "description": "Phishing recall on the canonical core benchmark.",
+          "dataType": "sc:Float",
+          "source": {
+            "fileObject": {
+              "@id": "reference-results-file"
+            },
+            "extract": {
+              "column": "recall"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "reference_results/fpr",
+          "description": "False-positive rate on the canonical core benchmark.",
+          "dataType": "sc:Float",
+          "source": {
+            "fileObject": {
+              "@id": "reference-results-file"
+            },
+            "extract": {
+              "column": "fpr"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "reference_results/safetility",
+          "description": "Deployability-aware composite score for the model-strategy pair.",
+          "dataType": "sc:Float",
+          "source": {
+            "fileObject": {
+              "@id": "reference-results-file"
+            },
+            "extract": {
+              "column": "safetility"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "cross_domain_legitimate_v5",
+      "name": "cross_domain_legitimate_v5",
+      "description": "A 333-email cross-domain legitimate split used in the v5 benchmark.",
+      "key": {
+        "@id": "cross_domain_legitimate_v5/id"
+      },
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "cross_domain_legitimate_v5/id",
+          "description": "Cross-domain legitimate sample identifier.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "cross-domain-file"
+            },
+            "extract": {
+              "column": "id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "cross_domain_legitimate_v5/url_raw",
+          "description": "Embedded URL shown to the model.",
+          "dataType": "sc:URL",
+          "source": {
+            "fileObject": {
+              "@id": "cross-domain-file"
+            },
+            "extract": {
+              "column": "url_raw"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "cross_domain_legitimate_v5/phish_label",
+          "description": "Ground-truth label, always legitimate in this split.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "cross-domain-file"
+            },
+            "extract": {
+              "column": "phish_label"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "cross_domain_legitimate_v5/email_content",
+          "description": "JSON string containing sender, from, subject, body, link_display_text, and link_url.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "cross-domain-file"
+            },
+            "extract": {
+              "column": "email_content"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "cross_domain_legitimate_v5/strategy",
+          "description": "Generation scenario tag for the cross-domain legitimate sample.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "cross-domain-file"
+            },
+            "extract": {
+              "column": "strategy"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "cross_domain_legitimate_v5/url_category",
+          "description": "URL category, fixed to cross_domain_legitimate for this split.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "cross-domain-file"
+            },
+            "extract": {
+              "column": "url_category"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "infrastructure_phishing_expanded",
+      "name": "infrastructure_phishing_expanded",
+      "description": "A 54-email real-URL infrastructure-phishing auxiliary split extracted from Nazario.",
+      "key": {
+        "@id": "infrastructure_phishing_expanded/id"
+      },
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "infrastructure_phishing_expanded/id",
+          "description": "Infrastructure-phishing sample identifier.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "infra-candidates-file"
+            },
+            "extract": {
+              "column": "id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "infrastructure_phishing_expanded/url_raw",
+          "description": "Embedded phishing URL.",
+          "dataType": "sc:URL",
+          "source": {
+            "fileObject": {
+              "@id": "infra-candidates-file"
+            },
+            "extract": {
+              "column": "url_raw"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "infrastructure_phishing_expanded/phish_label",
+          "description": "Ground-truth label, always phishing in this split.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "infra-candidates-file"
+            },
+            "extract": {
+              "column": "phish_label"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "infrastructure_phishing_expanded/email_content",
+          "description": "JSON string containing sender, from, subject, body, link_display_text, and link_url.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "infra-candidates-file"
+            },
+            "extract": {
+              "column": "email_content"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "infrastructure_phishing_expanded/url_category",
+          "description": "URL category, fixed to infrastructure_phishing for this split.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "infra-candidates-file"
+            },
+            "extract": {
+              "column": "url_category"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "real_phishing_validation",
+      "name": "real_phishing_validation",
+      "description": "A 1,000-email historical phishing validation split from the Nazario corpus.",
+      "key": {
+        "@id": "real_phishing_validation/id"
+      },
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "real_phishing_validation/id",
+          "description": "Historical phishing sample identifier.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "real-validation-file"
+            },
+            "extract": {
+              "column": "id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "real_phishing_validation/url_raw",
+          "description": "Embedded phishing URL.",
+          "dataType": "sc:URL",
+          "source": {
+            "fileObject": {
+              "@id": "real-validation-file"
+            },
+            "extract": {
+              "column": "url_raw"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "real_phishing_validation/phish_label",
+          "description": "Ground-truth label, always phishing in this split.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "real-validation-file"
+            },
+            "extract": {
+              "column": "phish_label"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "real_phishing_validation/email_content",
+          "description": "JSON string containing sender, from, subject, body, link_display_text, and link_url.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "real-validation-file"
+            },
+            "extract": {
+              "column": "email_content"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "real_phishing_validation/url_category",
+          "description": "URL category used for the validation split.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "real-validation-file"
+            },
+            "extract": {
+              "column": "url_category"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "data": {
+    "responsible_ai": {
+      "synthetic_data": true,
+      "construct_validity": "PhishNChips is intended to measure prompt-model interaction in LLM email-agent phishing detection under controlled stimuli. It is not intended to estimate production false-positive rates or enterprise base-rate risk.",
+      "data_limitations": [
+        "Core emails are synthetic, although phishing URLs are real and sourced from public phishing feeds.",
+        "The v5 release improves legitimate-distribution coverage by integrating 333 cross-domain legitimate emails, but the benchmark remains a constructed evaluation distribution rather than a production traffic sample.",
+        "English-only coverage.",
+        "Model, URL, and prompt snapshot corresponds to early 2026.",
+        "The infrastructure-phishing auxiliary split is useful for stress testing but still smaller than the originally desired expansion target."
+      ],
+      "data_biases": [
+        "Synthetic language may encode generator-specific style biases.",
+        "Legitimate emails emphasize workplace and transactional patterns rather than the full diversity of real-world email.",
+        "Prompt-based results may not generalize to agents with richer metadata, user history, or threat-intelligence tools."
+      ],
+      "personal_or_sensitive_information": "The release contains phishing content and real malicious URLs. It does not intentionally contain private inbox data, but the URLs themselves are operationally sensitive and should not be opened during casual inspection.",
+      "data_use_cases": {
+        "intended": [
+          "Benchmarking LLM email-security behavior.",
+          "Studying prompt sensitivity and deployment configuration effects.",
+          "Reproducing the PhishNChips benchmark and derived analyses."
+        ],
+        "out_of_scope": [
+          "Direct production deployment without additional safety controls.",
+          "Estimating real-world phishing prevalence or calibrated enterprise risk.",
+          "Using raw URLs outside controlled research environments."
+        ]
+      },
+      "social_impact": "The benchmark can help researchers and deployers identify brittle prompt-level defenses in agentic systems, but mishandling the raw phishing URLs or overstating the benchmark as real-world prevalence evidence could create harm.",
+      "provenance": {
+        "phishing_urls": [
+          "PhishTank (Cisco Talos)",
+          "OpenPhish (Academic Research Approval)",
+          "Nazario Phishing Corpus (CC-BY-4.0)",
+          "GitHub Phishing Database (Community Repositories)"
+        ],
+        "legitimate_seed_domains": [
+          "Tranco Research-Oriented Top Sites (NDSS 2019)",
+          "Project-curated legitimate scenarios"
+        ],
+        "generator": "Gemini 3 Flash Preview for the released synthetic email bodies"
+      },
+      "generation_details": "Phishing emails were generated around real malicious URLs under project rules that forbid trivial urgency cues and unrealistic spoofing of major authenticated domains. Legitimate emails were generated to be actionable, context-rich, and realistic enough to stress-test false positives.",
+      "preprocessing_and_annotation": "All benchmark evaluations were parsed into binary labels through the project adjudication pipeline. The v5 release package is assembled from the canonical repository artifacts for benchmark, validation, and auxiliary stress-test use."
+    }
+  },
+  "datePublished": "2026-04-08"
+}

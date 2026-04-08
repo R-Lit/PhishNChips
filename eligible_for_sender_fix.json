@@ -1,0 +1,562 @@
+[
+  {
+    "sample_id": "phish_0732",
+    "url": "https://amazoncomp.az/wp-includes/sodium_compat/alboraa/link.html",
+    "domain": "amazoncomp.az",
+    "category": "vendor_contract",
+    "original_sender": "flores.reese50@gmail.com"
+  },
+  {
+    "sample_id": "phish_0644",
+    "url": "https://movaseagencia.com.br/esfera/",
+    "domain": "movaseagencia.com.br",
+    "category": "client_proposal",
+    "original_sender": "wright.nico88@gmail.com"
+  },
+  {
+    "sample_id": "phish_0624",
+    "url": "https://trust-apps.co.com/",
+    "domain": "trust-apps.co.com",
+    "category": "vendor_contract",
+    "original_sender": "cameron_diaz@gmail.com"
+  },
+  {
+    "sample_id": "phish_0915",
+    "url": "http://digitalsproduct.com/chase/poland/china.php",
+    "domain": "digitalsproduct.com",
+    "category": "meeting_notes",
+    "original_sender": "misha11@gmail.com"
+  },
+  {
+    "sample_id": "phish_0896",
+    "url": "http://avpbharat.com/admin/upload/orange/error.php?hash=nzgyndu5mjm1&t",
+    "domain": "avpbharat.com",
+    "category": "meeting_notes",
+    "original_sender": "kelly.dakota84@gmail.com"
+  },
+  {
+    "sample_id": "phish_0913",
+    "url": "http://cpk1transport.com/bfa/bofa/bofa/bofa/36bb1dc57189714e7ce2ce8db7f47b95/login.php?cmd=login_submit&id=6c4cb7b81cc94b1159721f1b861a1c7d6c4cb7b81cc94b1159721f1b861a1c7d&session=6c4cb7b81cc94b1159721f1b861a1c7d6c4cb7b81cc94b1159721f1b861a1c7d",
+    "domain": "cpk1transport.com",
+    "category": "quick_share",
+    "original_sender": "reese.clark.work@gmail.com"
+  },
+  {
+    "sample_id": "phish_0908",
+    "url": "http://anz.com-inet.com/inetbank.php",
+    "domain": "anz.com-inet.com",
+    "category": "quick_share",
+    "original_sender": "mishacampbell83@gmail.com"
+  },
+  {
+    "sample_id": "phish_0698",
+    "url": "https://www.flow.page/mlh21880",
+    "domain": "flow.page",
+    "category": "vendor_contract",
+    "original_sender": "pat.morgan37@gmail.com"
+  },
+  {
+    "sample_id": "phish_0937",
+    "url": "http://authenticate-account.com/boa/b04_11.9.18_1.1.0/q.html?id=73b277c11266681122132d024f53a75b73b277c11266681122132d024f53a75b&session=73b277c11266681122132d024f53a75b73b277c11266681122132d024f53a75b",
+    "domain": "authenticate-account.com",
+    "category": "meeting_notes",
+    "original_sender": "teaganphillips6@gmail.com"
+  },
+  {
+    "sample_id": "phish_0936",
+    "url": "http://comune.glamourspot.com.au/dan/linkedinhardxxx/900",
+    "domain": "comune.glamourspot.com.au",
+    "category": "meeting_notes",
+    "original_sender": "harley52@gmail.com"
+  },
+  {
+    "sample_id": "phish_0883",
+    "url": "https://app.rededigitalchevrolet.com.br/login",
+    "domain": "app.rededigitalchevrolet.com.br",
+    "category": "meeting_notes",
+    "original_sender": "harley.cook.work@gmail.com"
+  },
+  {
+    "sample_id": "phish_0723",
+    "url": "https://techknowsources.com/reports/msft-fromfatigue389.html",
+    "domain": "techknowsources.com",
+    "category": "client_proposal",
+    "original_sender": "taylor.sage76@gmail.com"
+  },
+  {
+    "sample_id": "phish_0770",
+    "url": "https://kamlbs.im/hrd_cam.html?cms=a@b.com",
+    "domain": "kamlbs.im",
+    "category": "vendor_contract",
+    "original_sender": "dana.j80@gmail.com"
+  },
+  {
+    "sample_id": "phish_0875",
+    "url": "http://confirm-unverified-pplaccount.com/customer_center/customer-idpp00c611/myaccount/signin/?country.x=fr&locale.x=en_fr",
+    "domain": "confirm-unverified-pplaccount.com",
+    "category": "meeting_notes",
+    "original_sender": "cameronedwards81@gmail.com"
+  },
+  {
+    "sample_id": "phish_0617",
+    "url": "https://dongqiuprae.com/IU5gALfoFq",
+    "domain": "dongqiuprae.com",
+    "category": "nda_review",
+    "original_sender": "dakotathompson22@gmail.com"
+  },
+  {
+    "sample_id": "phish_0899",
+    "url": "https://laliche.dhi-collect.com/",
+    "domain": "laliche.dhi-collect.com",
+    "category": "quick_share",
+    "original_sender": "lee57@gmail.com"
+  },
+  {
+    "sample_id": "phish_0663",
+    "url": "https://roblox.com.py/communities/402241543/",
+    "domain": "roblox.com.py",
+    "category": "client_proposal",
+    "original_sender": "kim.h9@gmail.com"
+  },
+  {
+    "sample_id": "phish_0833",
+    "url": "http://americanasoutlet.com.br/meusprodutos/prefetch.php?skullid=127879075",
+    "domain": "americanasoutlet.com.br",
+    "category": "quick_share",
+    "original_sender": "wren34@gmail.com"
+  },
+  {
+    "sample_id": "phish_0725",
+    "url": "https://innuendovip.com/r2.php?bb=boo&amp;q=MzYwOTg4OzEyMTc4OTc4OzM1MTU7NDsyMzQzMTsyOTsyMDI2LTAxLTE5IDE3OjU4OjUxOzE2Mzs0NjtsOzs%3D&amp;cc=coo",
+    "domain": "innuendovip.com",
+    "category": "nda_review",
+    "original_sender": "allen.harper31@gmail.com"
+  },
+  {
+    "sample_id": "phish_0667",
+    "url": "https://amazoncomp.az/wp-admin/cgi-ent/link.html",
+    "domain": "amazoncomp.az",
+    "category": "vendor_contract",
+    "original_sender": "dana.chen@gmail.com"
+  },
+  {
+    "sample_id": "phish_0903",
+    "url": "http://azxjo3aivt.7932.gencmert.com/.azxjo3aivt.ahr0chm6ly9hbgxmaxjzdc5iaxovd3ataw5jbhvkzxmvlmhvbgxhl0f6egpvm2fpvnqvotmymtuwodc0l3rmaxr6z2vyywxkl3rmaxr6z2vyywxkqhzpzw1lzc5jb20=",
+    "domain": "azxjo3aivt.7932.gencmert.com",
+    "category": "meeting_notes",
+    "original_sender": "luca.morris3@gmail.com"
+  },
+  {
+    "sample_id": "phish_0804",
+    "url": "http://anz.com-inet.com/second.php??bankaway;jsessionid=0000pcalzwzs6ihh0xobh-t_3ss:1c5b2ghbd?bwayparam=urudksv1ksiwfljn6ejafyl1y7i2hgagsj3jfmp7safwy3gdiztuo9ua1axoe69hje1hzorhtdtk%0d%0a7ny576bn07c%2ffr4to7gtqkf%2bq45qvbocvs32izjjgbqswp1g7rehfregl3gwwnie0tzrn64%3d",
+    "domain": "anz.com-inet.com",
+    "category": "quick_share",
+    "original_sender": "briar28@gmail.com"
+  },
+  {
+    "sample_id": "phish_0932",
+    "url": "http://fb.com-91661670.jaynerenault.co/nextvrf.html?location=f490d0c37ecac1428e9a8c9f4364ad0f",
+    "domain": "fb.com-91661670.jaynerenault.co",
+    "category": "quick_share",
+    "original_sender": "cchen57@gmail.com"
+  },
+  {
+    "sample_id": "phish_0938",
+    "url": "https://dlszobel-my.sharepoint.com/:w:/g/personal/n2019154_dlszobel_edu_ph/EZeCAA2q-Z1ClEGd2NvKraQBxbEzjie7dkF3lsMvuEc3mA?e=4%3a4CWjQ6&amp;at=9",
+    "domain": "dlszobel-my.sharepoint.com",
+    "category": "quick_share",
+    "original_sender": "robin.singh84@gmail.com"
+  },
+  {
+    "sample_id": "phish_0608",
+    "url": "https://glaustralia.com/pocz/new_image.jpg",
+    "domain": "glaustralia.com",
+    "category": "client_proposal",
+    "original_sender": "blake.r9@gmail.com"
+  },
+  {
+    "sample_id": "phish_0634",
+    "url": "https://linqapp.com/david_ringland?r=link",
+    "domain": "linqapp.com",
+    "category": "vendor_contract",
+    "original_sender": "tatum.robinson.work@gmail.com"
+  },
+  {
+    "sample_id": "phish_0639",
+    "url": "https://aadhyaskin.com/49dmr.php",
+    "domain": "aadhyaskin.com",
+    "category": "client_proposal",
+    "original_sender": "peyton47@gmail.com"
+  },
+  {
+    "sample_id": "phish_0904",
+    "url": "http://deliverylifesupport.com/public/ne8zt2vg4hjucqntutezqrhvlt15eyqk",
+    "domain": "deliverylifesupport.com",
+    "category": "meeting_notes",
+    "original_sender": "kstewart10@gmail.com"
+  },
+  {
+    "sample_id": "phish_0802",
+    "url": "http://cpcalendars.shireeshaext.co.in/424513e1b8c607de53ff7441aaa91da7?z0ksa3ay1ezcojpekus@stlx5sxvv0beiiczqbtnmmec&vjegi&urlnzudnwh55kfoqowwjvtstge2w9snxiahcknpazdacvis@queav",
+    "domain": "cpcalendars.shireeshaext.co.in",
+    "category": "quick_share",
+    "original_sender": "campbell.casey62@gmail.com"
+  },
+  {
+    "sample_id": "phish_0868",
+    "url": "https://shorten.ee/0kj1F",
+    "domain": "shorten.ee",
+    "category": "quick_share",
+    "original_sender": "eden.rodriguez.work@gmail.com"
+  },
+  {
+    "sample_id": "phish_0776",
+    "url": "https://www.palimpsest.cfd/zeldyyqchqxuMrhjxrewnt",
+    "domain": "palimpsest.cfd",
+    "category": "client_proposal",
+    "original_sender": "casey.morgan@gmail.com"
+  },
+  {
+    "sample_id": "phish_0626",
+    "url": "https://att.nvtys.icu/pay/",
+    "domain": "att.nvtys.icu",
+    "category": "client_proposal",
+    "original_sender": "cameron.baker1@gmail.com"
+  },
+  {
+    "sample_id": "phish_0858",
+    "url": "http://7.gilbaneco.gencmert.com/.368945.ahr0chm6ly9oyxllay1sawdodgluzy5jb20vd3avmzy4otq1l0dpbgjhbmvjby9sbwfzdgvsbgevi2xtyxn0zwxsyubnawxiyw5ly28uy29t",
+    "domain": "7.gilbaneco.gencmert.com",
+    "category": "meeting_notes",
+    "original_sender": "johnson.taylor96@gmail.com"
+  },
+  {
+    "sample_id": "phish_0819",
+    "url": "http://driftnet.com.ng/public/a3yhehakywuee3amabfovqr8gd1iqvsj",
+    "domain": "driftnet.com.ng",
+    "category": "quick_share",
+    "original_sender": "sterling.green54@gmail.com"
+  },
+  {
+    "sample_id": "phish_0694",
+    "url": "https://www.cakeresume.com/s--u3LTBE7wk74Xf69AQn6fOA--/pay-732ed0",
+    "domain": "cakeresume.com",
+    "category": "nda_review",
+    "original_sender": "noel.taylor.work@gmail.com"
+  },
+  {
+    "sample_id": "phish_0718",
+    "url": "https://airaifma.com/",
+    "domain": "airaifma.com",
+    "category": "vendor_contract",
+    "original_sender": "oakley41@gmail.com"
+  },
+  {
+    "sample_id": "phish_0650",
+    "url": "https://www.flybirdexpbd.com/new_image.jpg",
+    "domain": "flybirdexpbd.com",
+    "category": "vendor_contract",
+    "original_sender": "luca.ramirez.work@gmail.com"
+  },
+  {
+    "sample_id": "phish_0999",
+    "url": "https://178.210.83.9/",
+    "domain": "178.210.83.9",
+    "category": "baseline",
+    "original_sender": "nico.baker57@gmail.com"
+  },
+  {
+    "sample_id": "phish_0863",
+    "url": "http://flooringexpert.com/testo/wellsfargo/wells",
+    "domain": "flooringexpert.com",
+    "category": "quick_share",
+    "original_sender": "sageanderson51@gmail.com"
+  },
+  {
+    "sample_id": "phish_0870",
+    "url": "http://askmyvet.com.au/luno/luno1/luno",
+    "domain": "askmyvet.com.au",
+    "category": "meeting_notes",
+    "original_sender": "emerson.morris@gmail.com"
+  },
+  {
+    "sample_id": "phish_0778",
+    "url": "https://link-1762447961.allvaluelink.com/bmmne",
+    "domain": "link-1762447961.allvaluelink.com",
+    "category": "client_proposal",
+    "original_sender": "tatum48@gmail.com"
+  },
+  {
+    "sample_id": "phish_0898",
+    "url": "http://abbas4rent.com/cgi/bofa/bofa/bofa/6159281b325caff0f3f8b622e73598b4",
+    "domain": "abbas4rent.com",
+    "category": "meeting_notes",
+    "original_sender": "harley.thomas.pro@gmail.com"
+  },
+  {
+    "sample_id": "phish_0847",
+    "url": "http://cpcontacts.shireeshaext.co.in/324bcb2da7b644baa6cd900c5b1f2716?g25ijf5zpxk2&nn5hklbnzgzfg6hzxol5t90bwbmdzj@wjapq@&url07qbcwgagvkj34mc0qgdoyz$7gc6ywlbxrp5wyvsd5por0jiqe",
+    "domain": "cpcontacts.shireeshaext.co.in",
+    "category": "meeting_notes",
+    "original_sender": "taylor.rogers89@gmail.com"
+  },
+  {
+    "sample_id": "phish_0967",
+    "url": "https://usiminas-ipatinga-u002.sistemastorage.com.br",
+    "domain": "usiminas-ipatinga-u002.sistemastorage.com.br",
+    "category": "reply_chain",
+    "original_sender": "sasha.r22@gmail.com"
+  },
+  {
+    "sample_id": "phish_0766",
+    "url": "https://o-ne-hu25.campussolucoes.com.br/1h5320964223465445790909/reton/",
+    "domain": "o-ne-hu25.campussolucoes.com.br",
+    "category": "nda_review",
+    "original_sender": "sawyer12@gmail.com"
+  },
+  {
+    "sample_id": "phish_0808",
+    "url": "http://expresseuropatransport.com/new/auth/sf_rand_string_lowercase6/c3blbmnlckbqcnrjb25zdhj1y3rpb24uy29t",
+    "domain": "expresseuropatransport.com",
+    "category": "meeting_notes",
+    "original_sender": "dakota.white@gmail.com"
+  },
+  {
+    "sample_id": "phish_0625",
+    "url": "https://montepio.live/?n=966966966",
+    "domain": "montepio.live",
+    "category": "vendor_contract",
+    "original_sender": "casey.davis63@gmail.com"
+  },
+  {
+    "sample_id": "phish_0862",
+    "url": "http://email.btobtechinsight.com/q/1fqv2r14xu23iyksltdaior/wv",
+    "domain": "email.btobtechinsight.com",
+    "category": "quick_share",
+    "original_sender": "skyler22@gmail.com"
+  },
+  {
+    "sample_id": "phish_0643",
+    "url": "https://acms.saleseos.com/src/js/scripts/gallery/photo-swipe/zany.php",
+    "domain": "acms.saleseos.com",
+    "category": "nda_review",
+    "original_sender": "frankieparker38@gmail.com"
+  },
+  {
+    "sample_id": "phish_0933",
+    "url": "http://atefnet.com/instalation/regionale-172-31-15-233-500/d3af68db02ed216ab18b26ea7ac7fe83/informations.php",
+    "domain": "atefnet.com",
+    "category": "quick_share",
+    "original_sender": "emersonevans91@gmail.com"
+  },
+  {
+    "sample_id": "phish_0734",
+    "url": "https://karaketwork.onelink.me/iQr1?af_r=https://karak.network%3Fgad_source%3D1&amp;gclid=EAIaIQobChMI0YCvm8rJiAMV8ZqDBx0G_yT6EAAYASAAEgLOrPD_BwE",
+    "domain": "karaketwork.onelink.me",
+    "category": "nda_review",
+    "original_sender": "ellis.morris78@gmail.com"
+  },
+  {
+    "sample_id": "phish_0710",
+    "url": "https://chatbot.page/rEkfUe",
+    "domain": "chatbot.page",
+    "category": "nda_review",
+    "original_sender": "jesse.murphy@gmail.com"
+  },
+  {
+    "sample_id": "phish_0648",
+    "url": "https://tribelio.page/confirm-businessaccount",
+    "domain": "tribelio.page",
+    "category": "client_proposal",
+    "original_sender": "jamie.rodriguez41@gmail.com"
+  },
+  {
+    "sample_id": "phish_0861",
+    "url": "http://enfant.com.ph/jnre/dver/login.php?cmd=login_submit&id=mtgyodg3ndk0oq==mtgyodg3ndk0oq==&session=mtgyodg3ndk0oq==mtgyodg3ndk0oq==",
+    "domain": "enfant.com.ph",
+    "category": "meeting_notes",
+    "original_sender": "oakley74@gmail.com"
+  },
+  {
+    "sample_id": "phish_0620",
+    "url": "https://www3-vpass.gohongmu.com",
+    "domain": "www3-vpass.gohongmu.com",
+    "category": "client_proposal",
+    "original_sender": "sasha.white.work@gmail.com"
+  },
+  {
+    "sample_id": "phish_0713",
+    "url": "https://myeebroadband.plutio.com/p/form/k6ok3zQNBmxgDuCGi",
+    "domain": "myeebroadband.plutio.com",
+    "category": "nda_review",
+    "original_sender": "murphy.teagan68@gmail.com"
+  },
+  {
+    "sample_id": "phish_0956",
+    "url": "https://qefwegthtweqqewrg-qewretyhtrweqw4rs3r.teemill.com/",
+    "domain": "qefwegthtweqqewrg-qewretyhtrweqw4rs3r.teemill.com",
+    "category": "reply_chain",
+    "original_sender": "harley.w22@gmail.com"
+  },
+  {
+    "sample_id": "phish_0857",
+    "url": "http://fb.com-35317584.jaynerenault.co/nextvrf.html?location=9378b0b6e62af2741008658a36f075c5",
+    "domain": "fb.com-35317584.jaynerenault.co",
+    "category": "meeting_notes",
+    "original_sender": "hill.remy38@gmail.com"
+  },
+  {
+    "sample_id": "phish_0796",
+    "url": "https://egiscola.pt/",
+    "domain": "egiscola.pt",
+    "category": "client_proposal",
+    "original_sender": "chris.anderson71@gmail.com"
+  },
+  {
+    "sample_id": "phish_0886",
+    "url": "http://abbas4rent.com/cgi/bofa/bofa/bofa/7f349b995f91368e78addb692ebee06c",
+    "domain": "abbas4rent.com",
+    "category": "quick_share",
+    "original_sender": "misha.evans.work@gmail.com"
+  },
+  {
+    "sample_id": "phish_0700",
+    "url": "https://www.viapo.it/dab/made-in-chin/index.html",
+    "domain": "viapo.it",
+    "category": "nda_review",
+    "original_sender": "danaphillips71@gmail.com"
+  },
+  {
+    "sample_id": "phish_0679",
+    "url": "https://boisefrycopdx.com/X8JOkK4OO9",
+    "domain": "boisefrycopdx.com",
+    "category": "client_proposal",
+    "original_sender": "ari.white56@gmail.com"
+  },
+  {
+    "sample_id": "phish_0951",
+    "url": "https://log-arubawebmail.it/",
+    "domain": "log-arubawebmail.it",
+    "category": "reply_chain",
+    "original_sender": "indigo.king.work@gmail.com"
+  },
+  {
+    "sample_id": "phish_0684",
+    "url": "https://t-mobile.quier.cc/pay/",
+    "domain": "t-mobile.quier.cc",
+    "category": "vendor_contract",
+    "original_sender": "campbell.remy22@gmail.com"
+  },
+  {
+    "sample_id": "phish_0900",
+    "url": "https://coop-promo1r32rt.com/Coop/",
+    "domain": "coop-promo1r32rt.com",
+    "category": "meeting_notes",
+    "original_sender": "avery.carter.pro@gmail.com"
+  },
+  {
+    "sample_id": "phish_0949",
+    "url": "http://deliverylifesupport.com/public/ntvuwbavzdptlrqqydzkxzwo1owpbhuz",
+    "domain": "deliverylifesupport.com",
+    "category": "meeting_notes",
+    "original_sender": "sasha88@gmail.com"
+  },
+  {
+    "sample_id": "phish_0924",
+    "url": "https://00-lhvpromt.com/LHV/",
+    "domain": "00-lhvpromt.com",
+    "category": "meeting_notes",
+    "original_sender": "shea.white56@gmail.com"
+  },
+  {
+    "sample_id": "phish_0769",
+    "url": "https://darb.qmobilitysid.com/",
+    "domain": "darb.qmobilitysid.com",
+    "category": "client_proposal",
+    "original_sender": "phoenix.torres14@gmail.com"
+  },
+  {
+    "sample_id": "phish_0946",
+    "url": "http://fb.com-09792342.jaynerenault.co/nextvrf.html?location=52692df53a4d46d16b5cfb53bdb2779d",
+    "domain": "fb.com-09792342.jaynerenault.co",
+    "category": "meeting_notes",
+    "original_sender": "kthomas86@gmail.com"
+  },
+  {
+    "sample_id": "phish_0889",
+    "url": "http://email.premieragent.com/c/ejw00l2o2zamb_cnotczfixry_cqntc1q4el-gsyqufcshigyyd06bmxl9wtbmefofb_nglofbg7mriwqporherepsxzwcyopfpbdimwqgloo_gab-lad-surogga8mujwjsg8vmjqg2dsqgnizbipddrvbaqfgl5dahlxvxemvtvkecab2gc3en1_5wwyrxfm2atlrav_mg-0rlnur2ifotxzut4ijun49bvqhh_1q2qlxsx0k-_s6a7sflizmcan2jwi1gbwgyhwvgehfnjmgfatnyzquqbi2g44duubzdn-1exk9d-svcxtuw2nk3p4h-boiph9yziii4cihakah4_usuzdtvx5z3gj8wsvpftfol_fw0yruxfkf1xeh-jfn2fxog1j1s8jn66pp6mdxhrkxxd484is_heucgh0armrv-pu59wv8baad__3hwhic",
+    "domain": "email.premieragent.com",
+    "category": "meeting_notes",
+    "original_sender": "emerson.edwards.pro@gmail.com"
+  },
+  {
+    "sample_id": "phish_0814",
+    "url": "http://customer-report.com/rbc2222/1netl0g0n/b5e2rehijb5ejicehmhgceogkrepkfowpfk.php",
+    "domain": "customer-report.com",
+    "category": "quick_share",
+    "original_sender": "darcy_baker@gmail.com"
+  },
+  {
+    "sample_id": "phish_0719",
+    "url": "https://linqapp.com/jame4?r=link",
+    "domain": "linqapp.com",
+    "category": "client_proposal",
+    "original_sender": "jamie.t75@gmail.com"
+  },
+  {
+    "sample_id": "phish_0835",
+    "url": "http://dtpcj37iqv.8473.gencmert.com/.dtpcj37iqv.ahr0chm6ly9myw50yxn0awtlznnhbmvszxiuy29tly9edhbjajm3sxfwlzc4njkzmja0ms9nbwnnb3vnyw4vi2dty2dvdwdhbkbob2tly291bnr5lm9yzw==",
+    "domain": "dtpcj37iqv.8473.gencmert.com",
+    "category": "meeting_notes",
+    "original_sender": "oakleymitchell37@gmail.com"
+  },
+  {
+    "sample_id": "phish_0853",
+    "url": "http://e-shlnegarment.com/aat9ri06hv8xmyo/mtc1uzqfml2blna",
+    "domain": "e-shlnegarment.com",
+    "category": "quick_share",
+    "original_sender": "clark.blake11@gmail.com"
+  },
+  {
+    "sample_id": "phish_0894",
+    "url": "http://ca.agricole.freedomain.thehost.com.ua/info/ca-end-of",
+    "domain": "ca.agricole.freedomain.thehost.com.ua",
+    "category": "meeting_notes",
+    "original_sender": "skyler.evans92@gmail.com"
+  },
+  {
+    "sample_id": "phish_0686",
+    "url": "https://modulowinapp.com/NavegadorExclusivo.zip",
+    "domain": "modulowinapp.com",
+    "category": "vendor_contract",
+    "original_sender": "shea_evans@gmail.com"
+  },
+  {
+    "sample_id": "phish_0916",
+    "url": "https://gabihazut.co.il/swiss/Swiss/swiss_de/manage/",
+    "domain": "gabihazut.co.il",
+    "category": "meeting_notes",
+    "original_sender": "harley.lopez.pro@gmail.com"
+  },
+  {
+    "sample_id": "phish_0801",
+    "url": "http://dezltixel1.1482.4mat.com.tr/.dezltixel1.ahr0chm6ly93d3cubwfyzgludgfrc2kuy29tly53cc9izwxsaw90dc8jymvsbglvdhrabwvhzgvubw9vcmuuy29t",
+    "domain": "dezltixel1.1482.4mat.com.tr",
+    "category": "quick_share",
+    "original_sender": "winter.harris.work@gmail.com"
+  },
+  {
+    "sample_id": "phish_0618",
+    "url": "https://www.kisa.link/lVmqh",
+    "domain": "kisa.link",
+    "category": "client_proposal",
+    "original_sender": "hall.harper92@gmail.com"
+  },
+  {
+    "sample_id": "phish_0783",
+    "url": "https://olx.pl-oferta2725972.click/",
+    "domain": "olx.pl-oferta2725972.click",
+    "category": "nda_review",
+    "original_sender": "morgan.patel@gmail.com"
+  }
+]
