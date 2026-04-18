@@ -55,7 +55,7 @@
   "version": "1.2.0",
   "creator": {
     "@type": "Person",
-    "name": "Ron Litvak"
+    "name": "Withheld for double-blind review"
   },
   "keywords": [
     "phishing detection",
@@ -64,7 +64,7 @@
     "email security",
     "prompt sensitivity"
   ],
-  "citeAs": "@article{litvak2026phishnchips, title={The System Prompt Is the Attack Surface: How {LLM} Agent Configuration Shapes Security and Creates Exploitable Vulnerabilities}, author={Litvak, Ron}, journal={arXiv preprint}, year={2026}}",
+  "citeAs": "PhishNChips: A Benchmark for Evaluating LLM Email-Agent Security Under Deployment Configuration Variation (2026 public benchmark release; full bibliographic metadata restored after review).",
   "distribution": [
     {
       "@type": "cr:FileObject",

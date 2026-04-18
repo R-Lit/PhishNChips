@@ -85,14 +85,14 @@ Complete details are available in `SOURCE_LICENSES.md`.
 
 ## Citation
 
-If you use PhishNChips in your research, please cite:
+During active conference review, this public mirror minimizes direct
+author-identifying citation metadata. A neutral provisional citation is:
 
 ```bibtex
-@article{litvak2026phishnchips,
-  title={The System Prompt Is the Attack Surface: How {LLM} Agent Configuration Shapes Security and Creates Exploitable Vulnerabilities},
-  author={Litvak, Ron},
-  journal={arXiv preprint},
-  year={2026}
+@misc{phishnchips2026benchmark,
+  title={PhishNChips: A Benchmark for Evaluating LLM Email-Agent Security Under Deployment Configuration Variation},
+  year={2026},
+  note={Public benchmark release; full bibliographic metadata restored after review}
 }
 ```
 

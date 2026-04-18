@@ -30,7 +30,7 @@ This document provides a complete record of the third-party-derived source mater
 *   **Source:** [https://openphish.com/](https://openphish.com/)
 *   **Files Affected:** `core_emails.csv` (66 rows)
 *   **Permission:** Explicit approval for academic research use granted via email on April 6, 2026.
-*   **Proof Summary:** Email from `contact@openphish.com` to Ron Litvak: *"You have our permission to include the OpenPhish sourced URLs for academic research use, provided you adhere to the mentioned attribution requirements."*
+*   **Proof Summary:** Email from `contact@openphish.com` dated 2026-04-06: *"You have our permission to include the OpenPhish sourced URLs for academic research use, provided you adhere to the mentioned attribution requirements."*
 *   **Attribution:** Malicious URL indicators sourced from the OpenPhish community feed.
 
 ### 3. PhishTank
